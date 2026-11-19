@@ -25,15 +25,15 @@ Designed to be reusable across different Laravel applications while keeping the 
 - Preview mode
 - Extensible architecture
 
----
-
-<!-- ## Installation
+--- ## Installation
 
 ```bash
-composer require your-vendor/sku-generator
+composer require ikongdev/sku-generator
 ```
 
 Publish the configuration if available.
+
+<!--
 
 ```bash
 php artisan vendor:publish
