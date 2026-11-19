@@ -67,7 +67,7 @@ class SkuGenerator
      * Character used to join SKU segments.
      * Default: '/'  — common in e-commerce (e.g. SHOES/RED/42).
      */
-    public function separator(string $char = '/'): self
+    public function separator(string $char = '-'): self
     {
         return $this->replace('separator', $char);
     }
