@@ -1,0 +1,30 @@
+{
+  "name": "ikongdev/sku-generator",
+  "description": "A configurable SKU generation package for Laravel with customizable formats and extensible architecture.",
+  "keywords": [
+    "laravel",
+    "php",
+    "sku",
+    "generator",
+    "eloquent"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jericho Umayam",
+      "email": "jerichoumayam473@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "illuminate/database": "^11.0|^12.0|^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IkongDev\\SkuGenerator\\": "src/"
+    }
+  }
+}
